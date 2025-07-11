@@ -28,4 +28,12 @@
   .section-padding {
     @apply py-20 px-4 sm:px-6 lg:px-8;
   }
-} 
+}
+
+.w-50 {
+  width: 20rem;
+}
+
+.h-50 {
+  height: 30rem;
+}
