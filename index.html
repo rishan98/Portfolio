@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishan Umayanga | Full Stack Developer</title>
+    <meta name="description" content="Personal portfolio showcasing projects, skills, and experience.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="grid-bg"></div>
+    <div class="mouse-glow"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <nav class="nav-links nav-pill">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="container hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Hi, I'm <span class="gradient-text">Rishan Umayanga</span></h1>
+                    <h2 class="subtitle">Full Stack Developer</h2>
+                    <div class="hero-stats fade-in">
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="3">0+</span>
+                            <span class="stat-label">Years of<br>Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="20">0+</span>
+                            <span class="stat-label">Projects<br>Worked on</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-1">
+                    <div class="image-wrapper">
+                        <!-- Add your photo URL in style below, e.g., style="background-image: url('my-photo.jpg')" -->
+                        <div class="photo-placeholder" style="background-image: url('images/my-img.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding text-center">
+            <div class="container">
+                <p class="section-subtitle fade-in">WHO AM I</p>
+                <h2 class="section-title fade-in giant-title">My <span class="gradient-text">Story</span></h2>
+
+                <div class="about-grid text-left">
+                    <div class="about-card fade-in">
+                        <div class="card-icon"><i data-lucide="code-2"></i></div>
+                        <h3>Craft</h3>
+                        <p class="card-highlight"><strong>Building scalable backends, sleek mobile apps, and robust automations.</strong></p>
+                        <p class="text-muted">Specialized in architecting high-performance REST APIs, native-feeling cross-platform mobile applications using Flutter, and automated data processing workflows. I leverage modern tools like Laravel, Vue.js, and React to craft stable systems that deliver clean digital solutions.</p>
+                        <p class="text-muted">Experienced in VPS management, Docker containers, database management (MySQL, MongoDB, PostgreSQL), and advanced automation pipelines with n8n.</p>
+                    </div>
+                    <div class="about-card fade-in delay-1">
+                        <div class="card-icon"><i data-lucide="brain"></i></div>
+                        <h3>Mindset</h3>
+                        <p class="card-highlight"><strong>Clean architecture, robust optimization, and continuous improvement.</strong></p>
+                        <p class="text-muted">I thrive on solving complex backend bugs, performing seamless data migrations, and optimizing system architecture. I balance rapid feature delivery with long-term code health and maintainability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding text-center">
+            <div class="container">
+                <p class="section-subtitle fade-in">PORTFOLIO</p>
+                <h2 class="section-title fade-in giant-title" style="margin-bottom: 80px;">Featured <span
+                        class="gradient-text">Projects</span></h2>
+
+                <div class="project-grid text-left">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in">
+                        <div class="project-meta">
+                            <span class="project-num">01</span>
+                            <span class="project-line"></span>
+                            <span class="project-type">WEB APP</span>
+                        </div>
+                        <h3 class="project-title">Coconut Tree Analyzer</h3>
+
+                        <div class="project-display" style="background-color: #e67e22;">
+                            <p class="project-desc">Web application using computer vision to analyze coconut trees plantation spots with geolocation.</p>
+                            <!-- Mockup Placeholder -->
+                            <div class="project-mockup" style="background-image: url('images/coconut-tree-analyzer.png');"></div>
+                        </div>
+
+                        <div class="project-tech-tags">
+                            <span class="tech-pill">PYTHON</span>
+                            <span class="tech-pill">OPENCV</span>
+                            <span class="tech-pill">CLUSTERING</span>
+                            <span class="tech-pill">ALGORITHMS</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in delay-1">
+                        <div class="project-meta">
+                            <span class="project-num">02</span>
+                            <span class="project-line"></span>
+                            <span class="project-type">MOBILE APP</span>
+                        </div>
+                        <h3 class="project-title">Feather Gallery</h3>
+
+                        <div class="project-display" style="background-color: #10b981;">
+                            <p class="project-desc">A mobile application that can scan feathers and identify the bird species. </p>
+                            <!-- Mockup Placeholder -->
+                            <div class="project-mockup mockup-tall" style="background-image: url('images/feather-gallery.jpg');"></div>
+                        </div>
+
+                        <div class="project-tech-tags">
+                            <span class="tech-pill">FLUTTER</span>
+                            <span class="tech-pill">ML KIT</span>
+                            <span class="tech-pill">REST API</span>
+                            <span class="tech-pill">FIREBASE</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card fade-in">
+                        <div class="project-meta">
+                            <span class="project-num">03</span>
+                            <span class="project-line"></span>
+                            <span class="project-type">WEB APP</span>
+                        </div>
+                        <h3 class="project-title">Modern LMS</h3>
+
+                        <div class="project-display" style="background-color: #8b5cf6;">
+                            <p class="project-desc">Modern learning management system with features like course management, student management, and progress tracking.</p>
+                            <!-- Mockup Placeholder -->
+                            <div class="project-mockup" style="background-image: url('images/lms.png');"></div>
+                        </div>
+
+                        <div class="project-tech-tags">
+                            <span class="tech-pill">REACT</span>
+                            <span class="tech-pill">NODE.JS</span>
+                            <span class="tech-pill">MYSQL</span>
+                            <span class="tech-pill">EXPRESS</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card fade-in delay-1">
+                        <div class="project-meta">
+                            <span class="project-num">04</span>
+                            <span class="project-line"></span>
+                            <span class="project-type">MOBILE APP</span>
+                        </div>
+                        <h3 class="project-title">ZERO PLASTIC</h3>
+
+                        <div class="project-display" style="background-color: #3b82f6;">
+                            <p class="project-desc">A full stack mobile application that uses to event management.</p>
+                            <!-- Mockup Placeholder -->
+                            <div class="project-mockup mockup-tall" style="background-image: url('images/zero-plastic.png');"></div>
+                        </div>
+
+                        <div class="project-tech-tags">
+                            <span class="tech-pill">FLUTTER</span>
+                            <span class="tech-pill">FIREBASE</span>
+                            <span class="tech-pill">REST API</span>
+                            <span class="tech-pill">LARAVEL</span>
+                            <span class="tech-pill">MYSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-btn fade-in">
+                    <a href="https://github.com/rishan98" target="_blank" class="btn-primary">Explore all projects on GitHub <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding text-center">
+            <div class="container">
+                <p class="section-subtitle fade-in">TECH STACK</p>
+                <h2 class="section-title fade-in giant-title">My <span class="gradient-text">Skills</span></h2>
+
+                <div class="globe-wrapper fade-in">
+                    <div class="globe-container">
+                        <div class="globe-wireframe">
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                        </div>
+                        <div class="globe"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experience Section -->
+            <section id="experience" class="experience section-padding">
+                <div class="container text-center">
+                    <p class="section-subtitle fade-in">EXPERIENCE</p>
+                    <h2 class="section-title fade-in giant-title">Where I've <span class="gradient-text">Worked</span>
+                    </h2>
+                    <p class="section-desc fade-in">From building scalable apps to solving complex problems.</p>
+
+                    <div class="timeline fade-in">
+                        <!-- Experience Item 1 -->
+                        <div class="timeline-item left">
+                            <div class="timeline-dot"></div>
+                            <div class="experience-card">
+                                <div class="exp-header">
+                                    <span class="exp-date"><i data-lucide="calendar"></i> 2025 April — Present</span>
+                                    <h3>Lanka Property Web (PVT LTD)</h3>
+                                    <p class="role">Full Stack Developer</p>
+                                </div>
+                                <p class="exp-desc">Proficient in developing and maintaining scalable REST APIs and
+                                    backend systems using PHP and Laravel, with strong experience in MySQL and MongoDB
+                                    database management, data processing, and workflow automation. Experienced in
+                                    Python-based model integration, VPS/server maintenance, DevOps practices, and
+                                    automation workflows using n8n, with additional exposure to React development.</p>
+                                <div class="exp-tags">
+                                    <span class="tech-pill">LARAVEL</span>
+                                    <span class="tech-pill">PHP</span>
+                                    <span class="tech-pill">PYTHON</span>
+                                    <span class="tech-pill">MYSQL</span>
+                                    <span class="tech-pill">MONGODB</span>
+                                    <span class="tech-pill">N8N</span>
+                                    <span class="tech-pill">REACT</span>
+                                    <span class="tech-pill">Docker</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experience Item 2 -->
+                        <div class="timeline-item right">
+                            <div class="timeline-dot"></div>
+                            <div class="experience-card">
+                                <div class="exp-header">
+                                    <span class="exp-date"><i data-lucide="calendar"></i> 2023 January — 2025
+                                        April</span>
+                                    <h3>GUI Solutions Lanka (PVT LTD)</h3>
+                                    <p class="role">Junior Software Engineer</p>
+                                </div>
+                                <p class="exp-desc">Experienced in the end-to-end development and maintenance
+                                    of mobile applications using Flutter, with a focus on seamless
+                                    REST API integration and Firebase functionalities including Cloud
+                                    Firestore and push notifications. Proficient in crafting web
+                                    applications and Content Management Systems (CMS) using
+                                    Laravel with MySQL. Specialized in developing REST APIs to
+                                    support both mobile and web applications, seamlessly
+                                    integrating APIs into Flutter and Vue.js projects.</p>
+                                <div class="exp-tags">
+                                    <span class="tech-pill">FLUTTER</span>
+                                    <span class="tech-pill">LARAVEL</span>
+                                    <span class="tech-pill">MYSQL</span>
+                                    <span class="tech-pill">VUE.JS</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experience Item 3 -->
+                        <div class="timeline-item left">
+                            <div class="timeline-dot"></div>
+                            <div class="experience-card">
+                                <div class="exp-header">
+                                    <span class="exp-date"><i data-lucide="calendar"></i> 2022 March — 2022
+                                        October</span>
+                                    <h3>Digital Micro Services (PVT LTD)</h3>
+                                    <p class="role">Trainee/ Software Developer</p>
+                                </div>
+                                <p class="exp-desc">Proficient in addressing backend and frontend bugs while
+                                    demonstrating expertise in data migration and large-scale data
+                                    processing. Well-versed in a diverse tech stack, including Java,
+                                    AngularJS, and database management with MySQL and
+                                    PostgreSQL.</p>
+                                <div class="exp-tags">
+                                    <span class="tech-pill">JAVA</span>
+                                    <span class="tech-pill">ANGULARJS</span>
+                                    <span class="tech-pill">MYSQL</span>
+                                    <span class="tech-pill">POSTGRESQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="explore section-padding text-center">
+                <div class="container">
+                    <p class="section-subtitle fade-in">LET'S CONNECT</p>
+                    <h2 class="section-title fade-in giant-title" style="margin-bottom: 60px;">Contact <span
+                            class="gradient-text">Me</span></h2>
+
+                    <div class="explore-grid text-left">
+                        <a href="mailto:rishanumayanga@gmail.com" class="explore-card fade-in">
+                            <div class="explore-content">
+                                <h3>Email</h3>
+                                <p>rishanumayanga@gmail.com</p>
+                            </div>
+                            <i data-lucide="mail" class="explore-icon"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/rishan-umayanga" target="_blank"
+                            class="explore-card fade-in delay-1">
+                            <div class="explore-content">
+                                <h3>LinkedIn</h3>
+                                <p>Connect with me professionally</p>
+                            </div>
+                            <i data-lucide="linkedin" class="explore-icon"></i>
+                        </a>
+                        <a href="https://github.com/rishan98" target="_blank" class="explore-card fade-in delay-2">
+                            <div class="explore-content">
+                                <h3>GitHub</h3>
+                                <p>Check out my open source contributions</p>
+                            </div>
+                            <i data-lucide="github" class="explore-icon"></i>
+                        </a>
+                        <a href="tel:+94710685683" class="explore-card fade-in delay-3">
+                            <div class="explore-content">
+                                <h3>Phone</h3>
+                                <p>+94 71 068 5683</p>
+                            </div>
+                            <i data-lucide="phone" class="explore-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <p>&copy; 2026 Rishan Umayanga. All rights reserved.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
